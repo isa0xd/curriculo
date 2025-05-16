@@ -5,53 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo de Optimus Jaime</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <style>
+
+        h1 {
+            color: rgb(140, 76, 8);
+            font-family: Merriweather;
+            font-weight: 100;
+        }
+
+        h2 {
+            color: rgb(140, 76, 8);
+            font-family: Merriweather;
+            font-weight: 100;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        body {
+            background-color: rgb(126, 94, 60);
+            width: 60%;
+            margin: 0 auto;
+            padding: 2% 0;
+        }
+
+        main {
+            background-color: white;
+        }
+
+        .secao {
+            margin-top: 0px;
+            padding-bottom: 5px;
+            border-top: solid 1px gray;
+        }
+
+    </style>
+
 </head>
 
 <body>
+
+<main>  
 
     <img src="imagens/megatron.jpg" width="150" height="150" alt="Megatron">
 
     <h1>Optimus Jaime</h1>
 
-    <hr>
 
-    <h2>Perfil</h2>
+    <section class="secao perfil">
+        <h2>Perfil</h2>
 
-    <p>
-        Me chamo Optimus Jaime, sou um profissional de tecnologia com experiência em desenvolvimento de sistemas e análise de dados. Possuo habilidades em liderança e comunicação, além de experiência em trabalhar em equipe.
-    </p>
+        <p>
+            Me chamo Optimus Jaime, sou um profissional de tecnologia com experiência em desenvolvimento de sistemas e análise de dados. Possuo habilidades em liderança e comunicação, além de experiência em trabalhar em equipe.
+        </p>
 
-    <p>
-        Estou sempre procurando por novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos desafiadores e inovadores.
-    </p>
+        <p>
+            Estou sempre procurando por novas oportunidades para aplicar minhas habilidades e conhecimentos em projetos desafiadores e inovadores.
+        </p>
+    </section>
 
-    <hr>
+    <section class="secao competencias">
 
-    <h2>Principais Competências</h2>
+        <h2>Principais Competências</h2>
 
-    <ul>
-        <li>Desenvolvimento Back-End</li>
-        <li>Programador C#, HTML, CSS, JavaScript e Python</li>
-        <li>Tenho uma memória excelente</li>
-        <li>Aprendo muito rápido</li>
-        <li>Sei fazer churrasco</li>
-    </ul>
+        <ul>
+            <li>Desenvolvimento Back-End</li>
+            <li>Programador C#, HTML, CSS, JavaScript e Python</li>
+            <li>Tenho uma memória excelente</li>
+            <li>Aprendo muito rápido</li>
+            <li>Sei fazer churrasco</li>
+        </ul>
 
-    <hr>
+    </section>
+
+    <section class="secao formacao">
 
     <h2>Formação Acadêmica</h2>
         <p>
-            Graduado Engenharia de Software na <a href="https://portal.unila.edu.br/" target="_blank">Universidade Federal da Integração Latino-Americana</a> em 2005 e Graduado em Ciência da Computação pela <a href="https://www.unioeste.br/portal/campus-foz-do-iguacu/" target="_blank">Universidade Estadual do Oeste do Paraná (UNIOESTE)</a>
+            Graduado Engenharia de Software na <a href="https://portal.unila.edu.br/"
+            style="color: rgb(126, 94, 60);" target="_blank">Universidade Federal da Integração Latino-Americana (UNILA)</a> em 2005 e Graduado em Ciência da Computação pela <a href="https://www.unioeste.br/portal/campus-foz-do-iguacu/" style="color: rgb(126, 94, 60);" target="_blank">Universidade Estadual do Oeste do Paraná (UNIOESTE)</a>
             em 2010
         </p>
+    </section>
 
-    <hr>
+    <section class="secao experiencia">
 
     <h2>Experiência Profissional</h2>
 
     <ol>
 
-        <li>Assistente pessoal do Presidente Obama</li>
+        <li>Assistente pessoal do Presidente Obama
 
         <ul>
             <li>Limpava toda a mansão dele 8x por semana</li>
@@ -59,7 +107,9 @@
             <li>Manipulei as eleições</li>
         </ul>
 
-        <li>Piloto da Nasa</li>
+        </li>
+
+        <li>Piloto da Nasa
 
         <ul>
             <li>Ateei fogo em um dos foguetes sem querer</li>
@@ -67,21 +117,27 @@
             <li>Me rebaixaram de cargo e depois me demitiram</li>
         </ul>
 
+        </li>
+
     </ol>
 
+    <p><a href="experiencia.html" style="color: rgb(126, 94, 60);">Veja as experiências profissionais em detalhes</a>.</p>
 
-    <p><a href="experiencia.html">Veja as experiências profissionais em detalhes</a>.</p>
+    </section>
 
-
-    <hr>
+    <section class="secao contato">
 
     <h2>Contato</h2>
 
-    <p><img src="imagens/maps.jpg" width="30" height="30" alt="Mapa">Invasão do Bubas, 666.</p>
+    <p><img src="imagens/maps.jpg" width="30" height="30" alt="Mapa">Planeta Cybertron, 666.</p>
 
-    <p><img src="imagens/phone.jpg" width="30" height="30" alt="Telefone"><a href="(45) 1234-5678" target="_blank">(45) 1234-5678</a></p>
+    <p><img src="imagens/phone.jpg" width="30" height="30" alt="Telefone"><a href="(45) 1234-5678" style="color: rgb(126, 94, 60);" target="_blank">(45) 1234-5678</a></p>
     
-    <p><img src="imagens/mail.jpg" width="30" height="30" alt="Email"><a href="optimusjaime.ofc@gmail.com" target="_blank">optimusjaime.ofc@gmail.com</a></p>
+    <p><img src="imagens/mail.jpg" width="30" height="30" alt="Email"><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjgGjNcXnfmtZJqbXdLQvrKVlZMBhHSdTRSxxcNGdjFFxssPsvSrRBHKGqsVQkpJQpGSnK" style="color: rgb(126, 94, 60);" target="_blank">optimusjaime.ofc@gmail.com</a></p>
+
+    </section>
+
+</main>  
 
 </body>
 
